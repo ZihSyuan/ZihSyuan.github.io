@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<style>
+	#blog {
+		margin-top: 72px;
+	}
+</style>
+<!-- Main -->
+<!-- <div id="main"> -->
+	<div id="blog" class="container" data-section="post">
+		<div class="row">
+			<div class="col-md-3">
+				{% include sidebar.html %}
+			</div>
+			<div class="col-md-9">
+				<section class="8u -2u">
+					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
+					<header>
+						<h2>{{ page.title }}</h2>
+					</header>
+					{{ page.content }}
+				</section>
+			</div>
+		</div>
+	</div>
+<!-- </div> -->
