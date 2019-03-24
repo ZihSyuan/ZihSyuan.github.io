@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # navbar
-company_name: Finli
+company_name: Good
 links:
   - name: Home
     url: /
